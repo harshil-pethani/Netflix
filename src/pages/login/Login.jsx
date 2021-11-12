@@ -17,7 +17,7 @@ const Login = () => {
                     <input required type="email" placeholder="Email or Phone Number" />
                     <input required type="password" placeholder="Password" />
                     <button className="loginButton">
-                        <NavLink exact to="/" style={{ textDecoration: "none", color: "white" }}>
+                        <NavLink exact to="/home" style={{ textDecoration: "none", color: "white" }}>
                             Sign In
                         </NavLink>
                     </button>

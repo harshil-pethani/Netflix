@@ -49,7 +49,7 @@ const Register = () => {
                     ) : (
                         <form className="input">
                             <input type="password" placeholder="Password" ref={passwordRef} />
-                            <NavLink exact to="/" style={{ textDecoration: "none", color: "white", height: "100%" }}>
+                            <NavLink exact to="/home" style={{ textDecoration: "none", color: "white", height: "100%" }}>
                                 <button className="registerButton" onClick={handleFinish}>
                                     Start Membership
                                 </button>

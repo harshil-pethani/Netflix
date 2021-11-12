@@ -7,7 +7,7 @@ const Watch = () => {
     return (
         <div className="watch">
             <div className="back">
-                <NavLink exact to="/" style={{ textDecoration: "none", color: "white" }}>
+                <NavLink exact to="/home" style={{ textDecoration: "none", color: "white" }}>
                     <ArrowBackOutlined className="icon" />
                 </NavLink>
                 Home
